@@ -1,0 +1,42 @@
+.containerMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 93vh;
+    justify-content: center;
+    }
+    .divImg{
+        height: 70vh;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #211951d4;
+    }
+    .divTxt{
+        width: 45%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #211951d4;
+    }
+    .imgMain{
+        width: 70%;
+    }
+    .divMain{
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tittleName{
+        margin: 0px;
+        font-size: 40px;
+    }
+    .pFrontEnd{
+        margin: 10px 10px;
+    }

@@ -1,0 +1,39 @@
+.divContainerCv{
+    width: 100%;
+    height: 85vh;
+}
+.divTitleCv{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.divQrCv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divImgCv{
+    height: 62vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.imgQr{
+    height: 62vh;
+    width: 50%;
+}
+.buttongoPDF{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #492E87;
+    color: white;
+    border: 1px solid transparent;
+}
+.buttongoPDF:hover{
+    background-color: white;
+    color: #492E87;
+    scale: 1.1;
+}
