@@ -47,12 +47,12 @@ a {
   text-decoration: none;
   list-style-type: none;
   color: white;
-  font-size: 17px;
+  font-size: 12px;
 }
-.items,
+.itemsDouble,
 p {
   color: white;
-  font-size: 17px;
+  font-size: 12px;
   margin: 0px;
 }
 .itemsDouble {
@@ -82,4 +82,10 @@ p {
   border: 0px;
   background-color: white;
   transition: 0.2s;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px){
+
 }

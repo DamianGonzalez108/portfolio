@@ -1,0 +1,34 @@
+.navBar-toggleyou {
+  margin: 5px;
+}
+.navBar-toggleyou:hover {
+  color: #492e87;
+  scale: 1.3;
+}
+.divContainerToggle {
+  background-color: #211951d4;
+}
+.divButtonClose{
+    justify-content: space-between;
+}
+.buttonClose{
+    color: white;
+}
+.buttonClose:hover{
+    color: #492e87;
+}
+.ancore,
+.tittleToggle {
+  color: white;
+}
+.ancore:hover{
+    color: #492e87;
+}
+.listToggle{
+    --bs-nav-link-hover-color: #492e87;
+}
+@media (min-width: 500px) {
+  .divComprimed {
+    display: none;
+  }
+}

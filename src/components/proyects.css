@@ -1,64 +1,78 @@
-.containerProyects{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+.containerProyects {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
-.divCards{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+.divCards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
-.divContainerCard{
-    width: 50%;
-    margin: 30px 0px;
-    transition: 0.5s;
+.divContainerCard {
+  width: 50%;
+  margin: 30px 0px;
+  transition: 0.5s;
 }
-.divContainerCard:hover{
-    scale: 1.05;
-    transition: 0.3s;
+.divContainerCard:hover {
+  scale: 1.05;
+  transition: 0.3s;
 }
-.cardImg{
-    height: 350px;
-    width: 100%;
+.cardImg {
+  height: 350px;
+  width: 100%;
 }
-.divFirstCard:hover .cardImg{
-    filter: blur(1px);
+.divFirstCard:hover .cardImg {
+  filter: blur(1px);
 }
-.textsCard{
-    font-size: 0px;
-    top: auto;
+.textsCard {
+  font-size: 0px;
+  top: auto;
 }
-.cardTxtDescription,.titleCardDescription, .timeCardText{
-    font-size: 0px;
+.cardTxtDescription,
+.titleCardDescription,
+.timeCardText {
+  font-size: 0px;
 }
 
-.divFirstCard:hover .cardTxtDescription{
-    font-size: 12px;
-    transform: translateY(0px);
+.divFirstCard:hover .cardTxtDescription {
+  font-size: 12px;
+  transform: translateY(0px);
 }
-.divFirstCard:hover .titleCardDescription{
-    font-size: 20px;
-    transition: 0.4s;
-    transform: translateY(0px);
+.divFirstCard:hover .titleCardDescription {
+  font-size: 20px;
+  transition: 0.4s;
+  transform: translateY(0px);
 }
-.divFirstCard:hover .textsCard{
-    text-align: center;
-    transform: translateY(0px);
-    transition: 0.4s;
-    top: auto;
-    height: 50%;
-    background-color: #211951d4;
-    text-shadow: 0px 0px 20px rgb(0, 0, 0);
-    color: white;
-    font-size: 15px;
+.divFirstCard:hover .textsCard {
+  text-align: center;
+  transform: translateY(0px);
+  transition: 0.4s;
+  top: auto;
+  height: 50%;
+  background-color: #211951d4;
+  text-shadow: 0px 0px 20px rgb(0, 0, 0);
+  color: white;
+  font-size: 15px;
 }
-.divFirstCard:hover .timeCardText{
-    margin-top: 20px;
-    font-size: 15px;
-    transition: 0.4s;
-    transform: translateY(0px);
+.divFirstCard:hover .timeCardText {
+  margin-top: 20px;
+  font-size: 15px;
+  transition: 0.4s;
+  transform: translateY(0px);
+}
+
+@media (max-width: 580px) {
+  .divContainerCard {
+    width: 70%;
+  }
+}
+
+@media (max-width: 410px){
+    .divContainerCard{
+        width: 90%;
+    }
 }

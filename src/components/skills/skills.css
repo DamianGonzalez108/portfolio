@@ -51,3 +51,27 @@
 .hoverSkills:hover{
     scale: 1.2;
 }
+
+@media (max-width: 760px) {
+
+    .divSkills{
+        height: 80vh;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .divSkillsList{
+        width: 70%;
+    }
+    .divAllItems{
+        height: 58vh;
+    }
+}
+
+@media (max-width: 580px){
+
+.divSkillsList{
+    width: 100%;
+}
+
+}

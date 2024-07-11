@@ -20,11 +20,17 @@
     justify-content: space-between;
 }
 .divTxtContainer{
-    width: 85%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 .txtContainer{
     width: 95%;
     text-align: center;
+}
+
+@media (max-width: 760px){
+    .txtDescription h3 {
+        font-size: 10px;
+    }
 }
