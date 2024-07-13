@@ -47,6 +47,7 @@
   }
   .divImg {
     width: 45%;
+    height: 50vh;
   }
   .imgMain {
     width: 60%;
@@ -66,8 +67,14 @@
 
 @media (max-width: 400px){
 
-    .divTxt, .divImg{
+    .divTxt{
         width: 90%;
     }
-
+    .divImg{
+      width: 90%;
+      height: 30vh;
+    }
+    .imgMain{
+      width: 50%;
+    }
 }

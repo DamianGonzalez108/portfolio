@@ -37,3 +37,29 @@
     color: #492E87;
     scale: 1.1;
 }
+
+@media (max-width: 1030px){
+
+    .divImgCv{
+        width: 68%;
+    }
+}
+
+@media (max-width: 700px){
+
+    .divImgCv{
+        width: 100%;
+    }
+}
+
+@media (max-width: 382px){
+
+.divImgCv{
+    height: 50vh;
+}
+.imgQr{
+    height: 50vh;
+    width: 90%;
+}
+
+}

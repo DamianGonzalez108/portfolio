@@ -72,20 +72,51 @@ p {
   justify-content: center;
   width: 20%;
 }
-.buttonCopyEmail {
+.buttonCopyEmail, .buttonIconContact {
   border-radius: 5px;
   border: 0px solid rgb(33, 25, 81);
   background-color: transparent;
   padding: 5px;
 }
-.buttonCopyEmail:hover {
+.buttonCopyEmail:hover,.buttonIconContact:hover {
   border: 0px;
   background-color: white;
   transition: 0.2s;
 }
 
+
 /* MEDIA QUERIES */
 
-@media (max-width: 800px){
+@media (max-width: 1030px){
+
+    .items , .itemsDouble{
+      width: 46%;
+    }
+    .divTitleFooter{
+      width: 100%;
+    }
+}
+
+@media (max-width: 790px){
+
+  .items , .itemsDouble{
+    width: 65%;
+  }
+}
+
+@media  (max-width: 565px){
+  .items , .itemsDouble{
+    width: 85%;
+  }
+  .itemsDouble p , .items a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 382px){
+
+  .items , .itemsDouble{
+    display: none;
+  }
 
 }

@@ -16,3 +16,8 @@ body {
   overflow: auto !important;
   padding-right: 0px !important;
 }
+@media (max-width: 295px){
+  .firstContainer h3{
+    font-size: 15px;
+  }
+}

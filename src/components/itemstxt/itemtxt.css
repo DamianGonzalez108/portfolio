@@ -34,3 +34,20 @@
         font-size: 10px;
     }
 }
+
+@media(max-width: 295px){
+    .txtDescription{
+        height: 40vh;
+        justify-content: space-around;
+    }
+    .divTxtContainer{
+        height: 35vh;
+        align-items: center;
+    }
+    .txtContainer{
+        font-size: 10px;
+    }
+    .divChangeText{
+        height: 35vh;
+    }
+}
