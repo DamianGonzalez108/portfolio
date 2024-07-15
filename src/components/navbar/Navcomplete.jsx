@@ -1,45 +1,34 @@
-import "./navComplete.css"
+import { useContext } from "react";
+import { FunctionContext } from "../../context/FunctionContext";
+
+import "./navComplete.css";
 
 const Navcomplete = () => {
 
-    const funtionscrollSkills = () => {
-        window.scrollTo({
-          top: 620,
-          behavior: "smooth",
-        });
-      };
-    
-      const funtionscrollProyects = () => {
-        window.scrollTo({
-          top: 1200,
-          behavior: "smooth",
-        });
-      };
-    
-      const funtionscrollContact = () => {
-        window.scrollTo({
-          top: 2516,
-          behavior: "smooth",
-        });
-      };
-
+  const {funtionscrollSkills,funtionscrollProyects,funtionscrollContact} = useContext(FunctionContext)
 
   return (
-              <div className="divListNavBar">
-        <ul className="listNavbar">
-          <li className="itemNavbar">
-            <button onClick={funtionscrollSkills} className="buttonsNavBar">Habilidades</button>
-          </li>
+    <div className="divListNavBar">
+      <ul className="listNavbar">
+        <li className="itemNavbar">
+          <button onClick={funtionscrollSkills} className="buttonsNavBar">
+            Habilidades
+          </button>
+        </li>
 
-          <li className="itemNavbar">
-            <button onClick={funtionscrollProyects} className="buttonsNavBar">Proyectos</button>
-          </li>
-          <li className="itemNavbar">
-            <button onClick={funtionscrollContact} className="buttonsNavBar">Contacto</button>
-          </li>
-        </ul>
-      </div>
-  )
-}
+        <li className="itemNavbar">
+          <button onClick={funtionscrollProyects} className="buttonsNavBar">
+            Proyectos
+          </button>
+        </li>
+        <li className="itemNavbar">
+          <button onClick={funtionscrollContact} className="buttonsNavBar">
+            Contacto
+          </button>
+        </li>
+      </ul>
+    </div>
+  );
+};
 
-export default Navcomplete
+export default Navcomplete;

@@ -17,6 +17,12 @@
 .buttonClose:hover{
     color: #492e87;
 }
+.ancore{
+    border: 0px transparent;
+  background-color: transparent;
+  font-weight: 100;
+  margin: 5px;
+}
 .ancore,
 .tittleToggle {
   color: white;
