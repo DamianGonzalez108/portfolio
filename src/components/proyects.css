@@ -64,10 +64,43 @@
   transition: 0.4s;
   transform: translateY(0px);
 }
+@media (max-width:1100px){
+  .divContainerCard{
+    width: 70%;
+  }
+}
+
+@media (max-width: 750px){
+  .divContainerCard{
+    width: 80%;
+  }
+  .divFirstCard{
+    height: 50vh;
+  }
+  .cardImg{
+    height: 50vh;
+  }
+}
 
 @media (max-width: 580px) {
   .divContainerCard {
-    width: 70%;
+    width: 90%;
+  }
+  .divFirstCard:hover .titleCardDescription{
+    font-size: 14px;
+  }
+  .divFirstCard:hover .cardTxtDescription{
+    font-size: 12px;
+  }
+  .divFirstCard:hover .timeCardText{
+    font-size: 12px;
+    margin: 0px;
+  }
+  .divFirstCard{
+    height: 40vh;
+  }
+  .cardImg{
+    height: 40vh;
   }
 }
 
@@ -88,10 +121,10 @@
     margin: 0px;
   }
   .divFirstCard{
-    height: 45vh;
+    height: 40vh;
   }
   .cardImg{
-    height: 45vh;
+    height: 40vh;
   }
   .textsCard{
     padding: 0px;
