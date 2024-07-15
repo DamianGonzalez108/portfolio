@@ -23,17 +23,17 @@ const Skills = () => {
         <div className="divSkillsList">
           <div className="divAllItems">
             <div className="divFirstItems">
-              <FaHtml5 size={70} color="#492E87"  className="hoverSkills"/>
-              <FaCss3 size={70} color="#492E87"  className="hoverSkills"/>
-              <IoLogoJavascript size={70} color="#492E87"  className="hoverSkills"/>
+              <FaHtml5 size={70} color="#DC5F00"  className="hoverSkills"/>
+              <FaCss3 size={70} color="#3FA2F6"  className="hoverSkills"/>
+              <IoLogoJavascript size={70} color="#FFDE4D"  className="hoverSkills"/>
             </div>
             <div className="divItems">
-              <FaReact size={70} color="#492E87"  className="hoverSkills"/>
-              <FaGitAlt size={70} color="#492E87" className="hoverSkills"/>
+              <FaReact size={70} color="#3FA2F6"  className="hoverSkills"/>
+              <FaGitAlt size={70} color="#DC5F00" className="hoverSkills"/>
             </div>
             <div className="divItems">
-              <FaSass size={70} color="#492E87" className="hoverSkills"/>
-              <FaBootstrap size={70} color="#492E87" className="hoverSkills"/>
+              <FaSass size={70} color="#FF76CE" className="hoverSkills"/>
+              <FaBootstrap size={70} color="#6420AA" className="hoverSkills"/>
             </div>
           </div>
         </div>
