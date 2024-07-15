@@ -15,7 +15,8 @@ const Skills = () => {
       <div>
         <h3 className="tittleSkills">HABILIDADES TECNICAS</h3>
       </div>
-      <div className="divSkills">
+      <div className="secondDivSkills">
+              <div className="divSkills">
         <div className="divImgSkills">
           <FaLaptopCode size={130} color="#492E87" />
         </div>
@@ -37,6 +38,8 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      </div>
+
     </div>
   );
 };

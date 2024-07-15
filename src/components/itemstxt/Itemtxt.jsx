@@ -26,13 +26,14 @@ const Itemtxt = () => {
 
   const goToNext = () => {
     if (currentIndex < dynamicText.length - 1) {
-      setCurrrentIndex(currentIndex + 1);
+      setCurrrentIndex(currentIndex + 1)
+      ;
     }
   };
 
   const goToPrevious = () => {
     if (currentIndex > 0) {
-      setCurrrentIndex(currentIndex - 1);
+      setCurrrentIndex(currentIndex - 1 );
     }
   };
 

@@ -22,7 +22,7 @@
   transition: 0.3s;
 }
 .cardImg {
-  height: 350px;
+  height: 60vh;
   width: 100%;
 }
 .divFirstCard:hover .cardImg {
@@ -75,4 +75,25 @@
     .divContainerCard{
         width: 90%;
     }
+}
+@media (max-width: 325px){
+  .divFirstCard:hover .titleCardDescription{
+    font-size: 12px;
+  }
+  .divFirstCard:hover .cardTxtDescription{
+    font-size: 10px;
+  }
+  .divFirstCard:hover .timeCardText{
+    font-size: 10px;
+    margin: 0px;
+  }
+  .divFirstCard{
+    height: 45vh;
+  }
+  .cardImg{
+    height: 45vh;
+  }
+  .textsCard{
+    padding: 0px;
+  }
 }

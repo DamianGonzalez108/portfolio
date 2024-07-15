@@ -27,6 +27,7 @@
 .txtContainer{
     width: 95%;
     text-align: center;
+    
 }
 
 @media (max-width: 760px){

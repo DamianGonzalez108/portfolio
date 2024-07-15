@@ -3,7 +3,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  background-image: url("/pexels-timmossholder-4934062.jpg");
+  background-image: url("/pexels-pixworthmedia-3145239.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -16,8 +16,9 @@ body {
   overflow: auto !important;
   padding-right: 0px !important;
 }
-@media (max-width: 295px){
-  .firstContainer h3{
+
+@media (max-width: 295px) {
+  .firstContainer h3 {
     font-size: 15px;
   }
 }
