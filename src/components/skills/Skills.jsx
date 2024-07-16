@@ -12,8 +12,8 @@ import "./skills.css";
 const Skills = () => {
   return (
     <div className="divContainerSkills" >
-      <div>
-        <h3 className="tittleSkills">HABILIDADES TECNICAS</h3>
+      <div className="divTitleSkils">
+        <h3 className="titleSkills">HABILIDADES TECNICAS</h3>
       </div>
       <div className="secondDivSkills">
               <div className="divSkills">

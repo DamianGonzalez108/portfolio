@@ -3,7 +3,12 @@ body {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  background-image: url("/pexels-pixworthmedia-3145239.webp");
+  color: white;
+  overflow: auto !important;
+  padding-right: 0px !important;
+}
+.divMainContainer{
+  background-image: url("/bg2.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -12,9 +17,20 @@ body {
   right: 0;
   left: 0;
   bottom: 0;
-  color: white;
-  overflow: auto !important;
-  padding-right: 0px !important;
+}
+.divChildMain{
+  backdrop-filter: blur(3px);
+}
+.divProyectsContact{
+  background-image: url("/e04c4f9207ea8c98ee199c4f43013947.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 @media (max-width: 295px) {

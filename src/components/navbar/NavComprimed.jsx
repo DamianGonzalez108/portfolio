@@ -22,7 +22,7 @@ const {funtionscrollSkills,funtionscrollProyects,funtionscrollContact} = useCont
             aria-label="Toggle navigation"
           />
           <div
-            className="offcanvas offcanvas-end divContainerToggle"
+            className="offcanvas offcanvas-start divContainerToggle"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
           >
