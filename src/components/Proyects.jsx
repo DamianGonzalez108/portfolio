@@ -43,7 +43,7 @@ const Proyects = () => {
           </a>
         </div>
         <div className="divContainerCard">
-          <a href="http://hmburgers.42web.io/" target="_blank" rel="noopener noreferrer" className="card text-bg-dark divFirstCard">
+          <a href="https://damiangonzalez108.github.io/burgersHM/" target="_blank" rel="noopener noreferrer" className="card text-bg-dark divFirstCard">
             <img
               src="/pryectHmburgers.png"
               className="card-img cardImg"
